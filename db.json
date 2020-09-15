@@ -1,65 +1,170 @@
 {
   "result": {
-    "schema": {
-      "title": "Untitled Form",
-      "description": "",
-      "type": "object",
-      "properties": {
+    "USA": {
+      "schema": {
+        "title": "Untitled Form",
+        "description": "",
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "title": "First Name",
+            "type": "string",
+            "name": "firstName"
+          },
+          "lastName": {
+            "title": "Last Name",
+            "type": "string",
+            "name": "lastName"
+          },
+          "address1": {
+            "title": "Address",
+            "type": "string",
+            "name": "address1",
+            "maxLength": 80
+          },
+          "city": {
+            "title": "City",
+            "type": "string",
+            "name": "city",
+            "maxLength": 80
+          }
+        },
+        "required": [
+          "firstName",
+          "lastName",
+          "city"
+        ]
+      },
+      "uiSchema": {
         "firstName": {
-          "title": "First Name",
-          "type": "string",
-          "name": "firstName"
+          "classNames": "foo",
+          "ui:placeholder": "placeholder",
+          "ui:required": true,
+          "htmlType": "text"
         },
         "lastName": {
-          "title": "Last Name",
-          "type": "string",
-          "name": "lastName"
+          "classNames": "foo",
+          "ui:required": true,
+          "ui:placeholder": "placeholder",
+          "htmlType": "text"
         },
         "address1": {
-          "title": "Address",
-          "type": "string",
-          "name": "address1",
-          "maxLength": 80
+          "classNames": "foo",
+          "htmlType": "text",
+          "nav": ""
         },
         "city": {
-          "title": "City",
-          "type": "string",
-          "name": "city",
-          "maxLength": 80
+          "classNames": "foo",
+          "ui:required": true,
+          "htmlType": "text",
+          "nav": ""
         }
       },
-      "required": [
-        "firstName",
-        "lastName",
-        "city"
-      ]
+      "errorMessage": {},
+      "rules": {}
     },
-    "uiSchema": {
-      "firstName": {
-        "classNames": "foo",
-        "ui:placeholder": "placeholder",
-        "ui:required": true,
-        "htmlType": "text"
+    "AFG": {
+      "schema": {
+        "title": "Untitled Form",
+        "description": "",
+        "type": "object",
+        "properties": {
+          "lastName": {
+            "title": "Last Name",
+            "type": "string",
+            "name": "lastName"
+          },
+          "address1": {
+            "title": "Address",
+            "type": "string",
+            "name": "address1",
+            "maxLength": 80
+          },
+          "city": {
+            "title": "City",
+            "type": "string",
+            "name": "city",
+            "maxLength": 80
+          }
+        },
+        "required": [
+          "lastName",
+          "city"
+        ]
       },
-      "lastName": {
-        "classNames": "foo",
-        "ui:required": true,
-        "ui:placeholder": "placeholder",
-        "htmlType": "text"
+      "uiSchema": {
+        "lastName": {
+          "classNames": "foo",
+          "ui:required": true,
+          "ui:placeholder": "placeholder",
+          "htmlType": "text"
+        },
+        "address1": {
+          "classNames": "foo",
+          "htmlType": "text",
+          "nav": ""
+        },
+        "city": {
+          "classNames": "foo",
+          "ui:required": true,
+          "htmlType": "text",
+          "nav": ""
+        }
       },
-      "address1": {
-        "classNames": "foo",
-        "htmlType": "text",
-        "nav": ""
-      },
-      "city": {
-        "classNames": "foo",
-        "ui:required": true,
-        "htmlType": "text",
-        "nav": ""
-      }
+      "errorMessage": {},
+      "rules": {}
     },
-    "errorMessage": {},
-    "rules": {}
+    "ALA": {
+      "schema": {
+        "title": "Untitled Form",
+        "description": "",
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "title": "First Name",
+            "type": "string",
+            "name": "firstName"
+          },
+          "lastName": {
+            "title": "Last Name",
+            "type": "string",
+            "name": "lastName"
+          },
+          "city": {
+            "title": "City",
+            "type": "string",
+            "name": "city",
+            "maxLength": 80
+          }
+        },
+        "required": [
+          "firstName",
+          "lastName",
+          "city"
+        ]
+      },
+      "uiSchema": {
+        "firstName": {
+          "classNames": "foo",
+          "ui:placeholder": "placeholder",
+          "ui:required": true,
+          "htmlType": "text"
+        },
+        "lastName": {
+          "classNames": "foo",
+          "ui:required": true,
+          "ui:placeholder": "placeholder",
+          "htmlType": "text"
+        },
+        "city": {
+          "classNames": "foo",
+          "ui:required": true,
+          "htmlType": "text",
+          "nav": ""
+        }
+      },
+      "errorMessage": {},
+      "rules": {}
+    }
   }
 }
